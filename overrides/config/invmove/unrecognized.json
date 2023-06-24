@@ -1,0 +1,8 @@
+{
+  "allowMovement": {
+    "net.minecraft.class_434": true,
+    "de.maxhenkel.camerautils.gui.ThirdPersonCameraScreen": true,
+    "de.maxhenkel.camerautils.gui.ThirdPersonScreen": true
+  },
+  "hideBackground": {}
+}
