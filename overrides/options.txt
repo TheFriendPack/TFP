@@ -43,7 +43,7 @@ lastServer:
 lang:en_us
 soundDevice:""
 chatVisibility:0
-chatOpacity:1.0
+chatOpacity:0.8
 chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
