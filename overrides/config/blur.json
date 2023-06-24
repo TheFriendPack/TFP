@@ -6,7 +6,7 @@
     "net.optifine.gui.GuiChatOF",
     "io.github.darkkronicle.advancedchatcore.chat.AdvancedChatScreen"
   ],
-  "fadeTimeMillis": 200,
+  "fadeTimeMillis": 250,
   "ease": true,
   "radius": 8,
   "gradientStart": "#000000",
