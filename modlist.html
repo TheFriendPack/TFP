@@ -170,12 +170,12 @@
         player = new YT.Player('video-player', {
             videoId: 'cNgyuHtBBW8',
             playerVars: {
-                autoplay: 1,       // Autoplay the video
-                controls: 0,       // Hide video controls
-                modestbranding: 1, // Hide YouTube logo
-                loop: 1,           // Loop the video
-                playlist: 'cNgyuHtBBW8',  // Needed for loop to work properly
-                mute: 0           // Mute the video
+                autoplay: 1,
+                controls: 0,
+                modestbranding: 1,
+                loop: 1,
+                playlist: 'cNgyuHtBBW8',
+                mute: 0
             },
             events: {
                 onReady: onPlayerReady
@@ -184,7 +184,7 @@
     }
 
     function onPlayerReady(event) {
-        event.target.playVideo(); // Autoplay the video when the player is ready
+        event.target.playVideo();
     }
 </script>
   <script src="https://www.youtube.com/iframe_api"></script>
@@ -192,7 +192,7 @@
 <div id="video-player"></div>
 
 <script>
-  // Load the YouTube IFrame Player API asynchronously
+  //IFrame Player API asynchronous load
   var tag = document.createElement('script');
   tag.src = "https://www.youtube.com/iframe_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];
